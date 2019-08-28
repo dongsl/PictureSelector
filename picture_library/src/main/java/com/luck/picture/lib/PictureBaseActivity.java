@@ -283,6 +283,12 @@ public class PictureBaseActivity extends FragmentActivity {
         int toolbarColor = AttrsUtils.getTypeValueColor(this, R.attr.picture_crop_toolbar_bg);
         int statusColor = AttrsUtils.getTypeValueColor(this, R.attr.picture_crop_status_color);
         int titleColor = AttrsUtils.getTypeValueColor(this, R.attr.picture_crop_title_color);
+        
+        /*options.setAllowedGestures(UCropActivity.SCALE, UCropActivity.ROTATE, UCropActivity.ALL);
+        options.setCropGridStrokeWidth(2);//设置裁剪网格线的宽度(我这网格设置不显示，所以没效果)
+        options.setCropFrameStrokeWidth(2);//设置裁剪框的宽度
+        options.setMaxScaleMultiplier(3);//设置最大缩放比例*/
+        
         options.setToolbarColor(toolbarColor);
         options.setStatusBarColor(statusColor);
         options.setToolbarWidgetColor(titleColor);
